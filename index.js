@@ -16,7 +16,7 @@ clearBtn.onclick = clearBox;
 function imageGen(search) {
     let numGen = Math.ceil((Math.random() * 1000) + 1);
 
-    return `<img src="https://source.unsplash.com/random/500x500/?sig=${numGen}&${search}" width="200px" height="200px">`
+    return `<img src="https://source.unsplash.com/random/500x500/?sig=${numGen}&${search}" class="imgResult" width="200px" height="200px">`
 }
 
 function newBox() {
@@ -35,5 +35,4 @@ function clearBox() {
     container.removeChild(container.lastChild)
 }
 }
-
 
