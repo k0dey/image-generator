@@ -25,14 +25,18 @@ function newBox() {
         box.classList.add("box");
         box.innerHTML = `${imageGen(search.value)}`;
         container.appendChild(box)
+
+        
     }
 
 }
 
+        
 function clearBox() {
     while (container.firstChild)
 {
     container.removeChild(container.lastChild)
 }
 }
+
 

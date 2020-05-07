@@ -78,11 +78,6 @@ button, input {
 	animation: fadein 3s ease-in;
 }
 
-img {
-	animation: fadein 3s ease-in;
-}
-
-
 footer {
 	background-color: white;
 	display: flex;
