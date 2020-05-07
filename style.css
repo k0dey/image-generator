@@ -77,7 +77,12 @@ button, input {
 	border: solid 1px #ededed;
 	animation: fadein 3s ease-in;
 }
-
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding-left: 2px;
+}
 footer {
 	background-color: white;
 	display: flex;
@@ -86,4 +91,10 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	font-size: 9pt;
 	bottom: 0;
+}
+
+#instruction {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14pt;
+	color: #b0b0b0;
 }

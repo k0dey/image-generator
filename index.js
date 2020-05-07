@@ -20,6 +20,8 @@ function imageGen(search) {
 }
 
 function newBox() {
+    document.getElementById("instruction").style.display = "none";
+
     for(i=0;i<input.value;i++){
         const box = document.createElement('div');
         box.classList.add("box");
@@ -35,8 +37,12 @@ function newBox() {
 function clearBox() {
     while (container.firstChild)
 {
-    container.removeChild(container.lastChild)
+    container.removeChild(container.lastChild);
 }
+  const box = document.createElement('div');
+  box.id = ("instruction");
+  box.innerHTML = `Select # of images and search term`;
+  container.appendChild(box)
 }
 
 
