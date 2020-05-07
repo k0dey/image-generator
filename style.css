@@ -97,4 +97,5 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14pt;
 	color: #b0b0b0;
+	animation: fadein 2s;
 }
