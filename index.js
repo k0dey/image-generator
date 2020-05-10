@@ -7,11 +7,21 @@ const input = document.getElementById('boxNumber');
 const search = document.getElementById('searchTerm');
 
 
+// button functions
 
 submitBtn.onclick = newBox;
 clearBtn.onclick = clearBox;
+search.addEventListener('keyup', function(event){ // enter button function
+    if (event.keyCode === 13) {
+    newBox()}
+});
 
-
+// unused search function that changes images while typing
+// search.onkeyup = dynamicSearch;
+// function dynamicSearch(){
+//     clearBox();
+//     newBox();
+// }
 
 function imageGen(search) {
     let numGen = Math.ceil((Math.random() * 1000) + 1);

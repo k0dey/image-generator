@@ -17,32 +17,21 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #f0f0f0;
-	font-family: verdana;
-	font-size: 12px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-}
-
-body {
 	overflow-y: scroll;
+}
 
-}
-form {
-	display: inline-block;
-	padding: 20px;
-}
 
 #nav {
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
 	padding: 20px;
-	font-family: 'Pacifico', sans-serif;
-	font-size: 12pt;
 }
 
-button, input {
+button, input, footer, #instruction {
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -53,6 +42,11 @@ button, input {
 #nav .navitem {
 	margin: 15px 10px 0 0;
 	width: 75px;
+}
+
+#leftnav{
+	font-family: 'Pacifico', sans-serif;
+	font-size: 12pt;
 }
 #rightnav {
 	font-size: 20pt;
@@ -88,13 +82,11 @@ footer {
 	display: flex;
 	justify-content: center;
 	padding: 20px;
-	font-family: 'Raleway', sans-serif;
 	font-size: 9pt;
 	bottom: 0;
 }
 
 #instruction {
-	font-family: 'Raleway', sans-serif;
 	font-size: 14pt;
 	color: #b0b0b0;
 	animation: fadein 2s;
