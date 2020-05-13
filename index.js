@@ -23,8 +23,10 @@ search.addEventListener('keyup', function(event){ // enter button function
 //     newBox();
 // }
 
+
+
 function imageGen(search) {
-    let numGen = Math.ceil((Math.random() * 1000) + 1);
+    let numGen = Math.floor((Math.random() * 1000) + 1);
 
     return `<img src="https://source.unsplash.com/random/500x500/?sig=${numGen}&${search}" class="imgResult" width="200px" height="200px">`
 }
